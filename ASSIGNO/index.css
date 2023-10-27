@@ -1,0 +1,37 @@
+/* Style the "About Us" page */
+main {
+    padding: 20px;
+    background-color: #58dc98;
+}
+
+h2 {
+    font-size: 24px;
+    color: #c22b2b;
+    margin-top: 10px;
+}
+
+h3 {
+    font-size: 20px;
+    color: #d61f90;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 16px;
+    color: #11b581;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+li {
+    font-size: 16px;
+    color: #6316bc;
+    line-height: 1.5;
+}
+
+/* You can add more specific styles as needed for your About Us page */

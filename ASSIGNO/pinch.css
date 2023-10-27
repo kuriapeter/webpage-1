@@ -1,0 +1,47 @@
+/* Add your CSS styles here to format your website */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #19c45e;
+    
+}
+
+header {
+    background-color: #a2a8af;
+    color: rgb(197, 18, 18);
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: list-item;
+    margin-right: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: #43057d;
+    color: white;
+    padding: 10px;
+}
+/* Style the "Learn More" button */
+#learnMoreButton {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#learnMoreButton:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,60 @@
+/* Style the "Services" page */
+
+.nav ul li{
+    color: azure;
+}
+main {
+    padding: 20px;
+    background-color: #007BFF;
+}
+
+.services-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.services-list li {
+    flex-basis: calc(33.33% - 20px);
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #8f1010;
+    text-align: center;
+    background-color: #ffffff46;
+}
+
+.services-list img {
+    max-width: 100%;
+}
+
+.services-list h3 {
+    font-size: 20px;
+    color: #007BFF;
+    margin: 10px 0;
+}
+
+.services-list p {
+    font-size: 16px;
+    color: #30aa65;
+}
+
+/* You can add more specific styles as needed for your Services page */
+/* Style the video container */
+#myVideo {
+    width: 100%;
+    max-width: 640px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Style the play button */
+#playButton {
+    display: block;
+    margin: 10px auto;
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
